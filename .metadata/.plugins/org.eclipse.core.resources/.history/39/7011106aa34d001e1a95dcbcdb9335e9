@@ -1,0 +1,5 @@
+package com.example.CustomerDetailsService.Service;
+
+public interface CustomerDetailsService {
+
+}

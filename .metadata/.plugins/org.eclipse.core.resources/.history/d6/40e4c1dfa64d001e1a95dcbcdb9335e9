@@ -1,0 +1,11 @@
+package com.example.OrderService.Pojo;
+
+public class OrderInfo {
+	
+	private String customerId;
+	private String productId;
+	private String productName;
+	private String productCost;
+	private String quantity;
+	
+}

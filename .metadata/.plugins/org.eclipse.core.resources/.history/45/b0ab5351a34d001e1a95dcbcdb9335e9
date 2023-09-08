@@ -1,0 +1,5 @@
+package com.example.CustomerDetailsService.Repository;
+
+public interface CustomerDetailsDao {
+
+}

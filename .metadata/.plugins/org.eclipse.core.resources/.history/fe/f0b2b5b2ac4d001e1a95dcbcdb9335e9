@@ -1,0 +1,4 @@
+server.port=8082
+spring.datasource.url=jdbc:oracle:thin:@192.168.1.5:1521:ORCL
+spring.datasource.username=IGSA_TEST
+spring.datasource.password=IGSA_123

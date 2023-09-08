@@ -1,0 +1,83 @@
+package com.example.OrderService.Pojo;
+
+public class OrderInfo {
+	
+	private String orderId;
+	private String customerId;
+	private String productId;
+	private String productName;
+	private String productCost;
+	private String quantity;
+	private String customerName;
+	private String contactNumber;
+	private String emailAddress;
+	private String address;
+	
+	public String getOrderId() {
+		return orderId;
+	}
+	public void setOrderId(String orderId) {
+		this.orderId = orderId;
+	}
+	public String getCustomerId() {
+		return customerId;
+	}
+	public void setCustomerId(String customerId) {
+		this.customerId = customerId;
+	}
+	public String getProductId() {
+		return productId;
+	}
+	public void setProductId(String productId) {
+		this.productId = productId;
+	}
+	public String getProductName() {
+		return productName;
+	}
+	public void setProductName(String productName) {
+		this.productName = productName;
+	}
+	public String getProductCost() {
+		return productCost;
+	}
+	public void setProductCost(String productCost) {
+		this.productCost = productCost;
+	}
+	public String getQuantity() {
+		return quantity;
+	}
+	public void setQuantity(String quantity) {
+		this.quantity = quantity;
+	}
+	public String getCustomerName() {
+		return customerName;
+	}
+	public void setCustomerName(String customerName) {
+		this.customerName = customerName;
+	}
+	public String getContactNumber() {
+		return contactNumber;
+	}
+	public void setContactNumber(String contactNumber) {
+		this.contactNumber = contactNumber;
+	}
+	public String getEmailAddress() {
+		return emailAddress;
+	}
+	public void setEmailAddress(String emailAddress) {
+		this.emailAddress = emailAddress;
+	}
+	public String getAddress() {
+		return address;
+	}
+	public void setAddress(String address) {
+		this.address = address;
+	}
+	@Override
+	public String toString() {
+		return "OrderInfo [orderId=" + orderId + ", customerId=" + customerId + ", productId=" + productId
+				+ ", productName=" + productName + ", productCost=" + productCost + ", quantity=" + quantity
+				+ ", customerName=" + customerName + ", contactNumber=" + contactNumber + ", emailAddress="
+				+ emailAddress + ", address=" + address + "]";
+	}
+}

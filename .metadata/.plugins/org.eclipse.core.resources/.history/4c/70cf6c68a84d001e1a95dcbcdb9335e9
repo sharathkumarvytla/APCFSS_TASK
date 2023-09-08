@@ -1,0 +1,9 @@
+package com.example.OrderService.Repository;
+
+import com.example.OrderService.Pojo.OrderInfo;
+
+public interface OrderDao {
+	
+	public int createCustomerOrder(OrderInfo info)
+
+}

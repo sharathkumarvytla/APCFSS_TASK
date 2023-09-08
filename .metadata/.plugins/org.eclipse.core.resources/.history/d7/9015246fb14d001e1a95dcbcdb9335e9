@@ -1,0 +1,24 @@
+package com.example.OrderService.Service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.example.OrderService.Pojo.OrderInfo;
+import com.example.OrderService.Repository.OrderDaoImpl;
+import com.example.OrderService.Utility.GenerateOrderId;
+
+@Service
+public class OrderServiceImpl implements OrderService {
+
+	@Autowired
+	OrderDaoImpl dao;
+
+	@Autowired
+	GenerateOrderId utility;
+
+	@Override
+	public int assignOrder(OrderInfo info) {
+		info.setOrderId(utility.createOrderId());
+		return dao.createCustomerOrder(info);
+	}
+}
